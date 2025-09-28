@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor/mongolite",
+    "name": "herdianrony/mongolite",
     "description": "MongoDB-like interface with SQLite backend",
     "type": "library",
     "license": "MIT",
