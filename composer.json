@@ -1,0 +1,36 @@
+{
+    "name": "your-vendor/mongolite",
+    "description": "MongoDB-like interface with SQLite backend",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["mongodb", "sqlite", "database", "nosql"],
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com",
+            "homepage": "https://yourwebsite.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-sqlite3": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MongoLite\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MongoLite\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
