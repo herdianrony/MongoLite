@@ -2,11 +2,14 @@
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-blue.svg)](https://php.net)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](README.md)
 
 > **High-performance MongoDB-compatible query engine with SQLite backend**
 
-MongoLite is a lightweight, production-ready library that provides MongoDB-style queries and aggregations using SQLite as the storage engine. It offers 98% MongoDB compatibility with enterprise-grade security and performance optimizations.
+MongoLite is a lightweight, production-ready library that provides MongoDB-style queries and aggregations using SQLite as the storage engine. Originally developed as part of [Cockpit CMS](https://github.com/agentejo/cockpit), it has been extracted and enhanced as a standalone library.
+
+## 🔍 About
+
+This library was originally part of the [Cockpit CMS](https://github.com/agentejo/cockpit) project. It has been extracted, improved, and is now maintained as a separate package for broader use in PHP applications that need a lightweight, file-based NoSQL solution.
 
 ## ✨ Features
 
@@ -514,8 +517,15 @@ MIT License - see LICENSE file for details.
 
 ## 🙏 Credits
 
-MongoLite is built with ❤️ for the PHP community, providing MongoDB compatibility with SQLite's reliability and simplicity.
+- Original development team at [Cockpit CMS](https://github.com/agentejo/cockpit)
+- Current maintainers: [Your Name/Organization]
+- Contributors: [List of contributors if any]
 
 ---
 
 **Ready to get started?** Check out the [Quick Start](#-quick-start) guide above!
+
+## 🔗 Related Projects
+
+- [Cockpit CMS](https://github.com/agentejo/cockpit) - The original project where MongoLite was developed
+- [MongoLite](https://github.com/herdianrony/mongolite) - This standalone version
